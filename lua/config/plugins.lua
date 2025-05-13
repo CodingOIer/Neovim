@@ -9,5 +9,10 @@ return {
     {'hrsh7th/cmp-nvim-lsp'},
     {'folke/neodev.nvim'},
     {'windwp/nvim-autopairs'},
-    {'jose-elias-alvarez/null-ls.nvim'}
+    {'jose-elias-alvarez/null-ls.nvim'},
+    {'akinsho/bufferline.nvim'},
+    {'nvim-tree/nvim-tree.lua'},
+    {'nvim-lualine/lualine.nvim'},
+    {'MeanderingProgrammer/render-markdown.nvim'},
+    {'kdheepak/lazygit.nvim'}
 }

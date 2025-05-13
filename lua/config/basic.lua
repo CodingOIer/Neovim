@@ -24,6 +24,7 @@ vim.diagnostic.config({
   -- 同时保留 signcolumn（E/W 图标列）和 underline
   signs            = true,
   underline        = true,
-  update_in_insert = false,  -- 插入模式下不刷新
   severity_sort    = true,   -- 严重级别排序
 })
+-- 状态栏
+vim.o.laststatus = 3
