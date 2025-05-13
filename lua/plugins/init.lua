@@ -1,0 +1,7 @@
+require("nvim-tree").setup()
+require('plugins.lsp')
+require('plugins.format')
+require('plugins.lazygit')
+require('plugins.lualine')
+require('plugins.bufferline')
+require('plugins.autopairs').setup()

@@ -8,14 +8,13 @@ vim.keymap.set('n', '<leader>w', '<cmd>w<CR>', {noremap = true, silent = true})
 -- 文件树
 vim.keymap.set('n', '<leader>t', '<cmd>NvimTreeToggle<CR>', {noremap = true, silent = true})
 -- 关闭选项卡
-vim.keymap.set('n', '<C-d>', '<cmd>bdelete<CR>', {noremap = true, silent = true})
+vim.keymap.set('n', '<C-d>', '<cmd>Bdelete<CR>', {noremap = true, silent = true})
 -- Ctrl + k：切换到下一个 buffer
 vim.keymap.set('n', '<C-k>', ':BufferLineCycleNext<CR>', {
   noremap = true,
   silent = true,
   desc = 'BufferLine: 下一个 buffer',
 })
-
 -- Ctrl + j：切换到上一个 buffer
 vim.keymap.set('n', '<C-j>', ':BufferLineCyclePrev<CR>', {
   noremap = true,
@@ -28,4 +27,8 @@ vim.keymap.set('n', '<C-t>', ':enew<CR>', {
   silent = true,
   desc = '新建 buffer（选项卡）',
 })
-
+-- LazyGit
+vim.keymap.set('n', '<leader>g', '<cmd>LazyGit<CR>', {noremap = true, silent = true})
+-- 终端
+vim.keymap.set('n', '<leader>t', '<cmd>terminal<CR>', {noremap = true, silent = true})
+vim.keymap.set('t', '<ESC>', '<C-\\><C-n>', {noremap = true, silent = true})

@@ -14,5 +14,6 @@ return {
     {'nvim-tree/nvim-tree.lua'},
     {'nvim-lualine/lualine.nvim'},
     {'MeanderingProgrammer/render-markdown.nvim'},
-    {'kdheepak/lazygit.nvim'}
+    {'kdheepak/lazygit.nvim'},
+    {'famiu/bufdelete.nvim'}
 }
